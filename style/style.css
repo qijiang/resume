@@ -1,0 +1,57 @@
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.float-left,
+.nav li {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear {
+    overflow: hidden;
+}
+
+.nav {
+    background-color: #2C3E50;
+    height: 50px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 50px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.nav li {
+    margin: 0 10px;
+}
+
+.main {
+    margin-top: 50px;
+}
+
+.aboutme {
+    height: 600px;
+    background-color: #FBFCFC;
+}
+
+h1 {
+    text-align: center;
+}
+
+;
