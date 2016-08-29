@@ -41,17 +41,29 @@ a {
     margin: 0 10px;
 }
 
-.main {
+.container {
     margin-top: 50px;
 }
 
-.aboutme {
+.header {
     height: 600px;
-    background-color: #FBFCFC;
+    background-color: #F5F8F1;
+}
+
+.header-text,
+.aboutme-text {
+
+    width: 60%;
+    padding-top: 200px;
 }
 
 h1 {
     text-align: center;
-}
+    margin:0; 
 
+}
+.aboutme{
+	height:600px;
+	background-color: #D8EBEF;
+}
 ;
