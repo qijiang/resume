@@ -35,6 +35,7 @@ a {
     position: fixed;
     top: 0px;
     width: 100%;
+    z-index: 1;
 }
 
 .nav li {
@@ -58,7 +59,7 @@ a {
 
 h1 {
     text-align: center;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .aboutme {
@@ -70,13 +71,14 @@ h1 {
 .skill {
     width: 1200px;
     margin: 0 auto;
+    padding-bottom: 300px;
     position: relative;
 }
 
 .circleProgress_wrapper {
     width: 200px;
     height: 200px;
-    margin-right: 100px;
+    margin: 0 50px;
     position: relative;
     top: 50px;
 }
@@ -191,4 +193,61 @@ h1 {
     100% {
         -webkit-transform: rotate(-75deg);
     }
+}
+
+.experience {
+    width: 100%;
+    background-color: #D6DCDC;
+}
+
+.timeline {
+    position: relative;
+}
+
+ul:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background-color: #eee;
+    margin-left: -1px;
+}
+
+.clearfix:before {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.time {
+    position: absolute;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    text-align: center;
+    line-height: 40px;
+
+}
+.timeline-content{
+    width: 1140px;
+    margin-top: 70px;
+    height: 600px;
+}
+
+.timeline-tab {
+    width: 300px;
+    height: 200px;
+    padding:10px 10px 10px 250px;
+    text-align: right;
+}
+h5{
+
 }
